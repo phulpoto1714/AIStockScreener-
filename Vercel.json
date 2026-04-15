@@ -1,0 +1,9 @@
+{
+  "rewrite": [{ "source": "/(.*)", "destination": "main.py" }],
+  "renders": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ]
+}
